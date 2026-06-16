@@ -1,0 +1,6 @@
+{
+  "name": "Bilan Carbone 2025 - Viaxoft",
+  "description": "Contribution à la réalisation du bilan carbone 2025 de Viaxoft et proposition d'actions d'amélioration environnementale",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

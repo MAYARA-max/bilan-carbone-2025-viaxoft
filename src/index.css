@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-natural-bg: #E8F5E9;
+  --color-natural-text: #1B5E20;
+  --color-natural-primary: #1B5E20;
+  --color-natural-accent: #2E7D32;
+  --color-natural-light-accent: #7CB342;
+  --color-natural-border: #C8E6C9;
+  --color-natural-sage: #C8E6C9;
+}
+
+/* Custom visual utilities representing Natural Tones design theme */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(200, 230, 201, 0.5);
+  box-shadow: 0 8px 32px -4px rgba(27, 94, 32, 0.05);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card-hover:hover {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(124, 179, 66, 0.5);
+  box-shadow: 0 16px 40px -6px rgba(27, 94, 32, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Floating leaf backgrounds */
+.leaf-bg {
+  mask-image: radial-gradient(circle, white, transparent);
+  pointer-events: none;
+}
